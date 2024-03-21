@@ -1,0 +1,109 @@
+--CREATE TABLE products (
+--	id SERIAL PRIMARY KEY,
+--	name VARCHAR(255) NOT NULL UNIQUE,
+--	description TEXT,
+--	price DECIMAL(10, 2) NOT NULL CHECK (price > 0),
+--	quantity INTEGER NOT NULL CHECK (quantity >= 0)
+--);
+--
+--CREATE TABLE shelves (
+--	id SERIAL PRIMARY KEY,
+--	name VARCHAR(255) NOT NULL UNIQUE
+--);
+--
+--CREATE TABLE orders (
+--  id SERIAL PRIMARY KEY,
+--  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW() NOT NULL,
+--  status_id integer NOT NULL
+--);
+--
+--CREATE TABLE product_orders (
+--	id SERIAL PRIMARY KEY,
+--	created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW() NOT NULL,
+--	product_id INTEGER NOT NULL REFERENCES products(id),
+--	order_id INTEGER NOT NULL REFERENCES orders(id),
+--	quantity INTEGER NOT NULL CHECK (quantity > 0),
+--	UNIQUE (product_id, order_id)
+--);
+--
+--CREATE TABLE shelves_product (
+--	id SERIAL PRIMARY KEY,
+--	created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW() NOT NULL,
+--	product_id INTEGER NOT NULL REFERENCES products(id),
+--	shelf_id INTEGER NOT NULL REFERENCES shelves(id),
+--	is_main BOOLEAN NOT NULL,
+--	UNIQUE (product_id, shelf_id)
+--);
+--
+--CREATE TABLE status (
+--	id SERIAL PRIMARY KEY,
+--	name VARCHAR(255) NOT NULL UNIQUE
+--);
+--
+--
+--INSERT INTO status (name) VALUES ('created'), ('in_process'), ('completed');
+--ALTER TABLE orders ADD CONSTRAINT orders_status_fk FOREIGN KEY (status_id) REFERENCES status(id);
+--
+--INSERT INTO products (name, description, price, quantity)
+--VALUES
+--  ('Ноутбук', 'Описание ноутбука', 1000, 10),
+--  ('Телевизор', 'Описание телевизора', 2000, 5),
+--  ('Телефон', 'Описание телефона', 500, 20),
+--  ('Системный блок', 'Описание системного блока', 800, 8),
+--  ('Часы', 'Описание часов', 300, 15),
+--  ('Микрофон', 'Описание микрофона', 200, 25);
+--
+--
+--INSERT INTO shelves (name)
+--VALUES
+--  ('А'),
+--  ('Б'),
+--  ('В'),
+--  ('З'),
+--  ('Ж');
+--
+--
+--INSERT INTO orders (created_at, status_id)
+--VALUES
+--  ('2023-03-14 13:00:00', 3), -- id=1
+--  ('2023-03-14 14:05:00', 3), -- id=2
+--  ('2023-03-14 15:10:00', 3), -- id=3
+--  ('2023-03-14 16:15:00', 3), -- id=4
+--  ('2023-03-14 17:00:00', 3), -- id=5
+--  ('2023-03-14 18:05:00', 3), -- id=6
+--  ('2023-03-14 19:10:00', 3), -- id=7
+--  ('2023-03-14 20:15:00', 3), -- id=8
+--  ('2023-03-14 12:00:00', 3), -- id=9
+--  ('2024-03-14 12:05:00', 1), -- id=10
+--  ('2024-03-14 12:10:00', 1), -- id=11
+--  ('2024-03-14 12:15:00', 3), -- id=12
+--  ('2024-03-14 12:00:00', 3), -- id=13
+--  ('2024-03-14 12:05:00', 1), -- id=14
+--  ('2024-03-14 12:10:00', 1), -- id=15
+--  ('2024-03-14 12:15:00', 1); -- id=16
+--
+--INSERT INTO shelves_product (product_id, shelf_id, is_main)
+--VALUES
+--  (1, 1, true), -- Ноутбук, стеллаж А (главный)
+--  (1, 2, false), -- Ноутбук, стеллаж Б (дополнительный)
+--  (2, 1, true), -- Телевизор, стеллаж А (главный)
+--  (3, 2, true), -- Телефон, стеллаж Б (главный)
+--  (3, 3, false), -- Телефон, стеллаж В (дополнительный)
+--  (3, 4, false), -- Телефон, стеллаж З (дополнительный)
+--  (4, 5, true), -- Системный блок, стеллаж Ж (главный)
+--  (5, 1, false), -- Часы, стеллаж А (дополнительный)
+--  (5, 5, true), -- Часы, стеллаж Ж (главный)
+--  (6, 1, true); -- Микрофон, стеллаж А (главный)
+--
+--INSERT INTO product_orders (product_id, order_id, quantity)
+--VALUES
+--  (1, 10, 2), -- Ноутбук, заказ 10, 2 шт
+--  (2, 11, 3), -- Телевизор, заказ 11, 3 шт
+--  (1, 14, 3), -- Ноутбук, заказ 14, 3 шт
+--  (4, 14, 4), -- Системный блок, заказ 14, 4 шт
+--  (5, 15, 1), -- Часы, заказ 15, 1 шт
+--  (3, 10, 1), -- Телефон, заказ 10, 1 шт
+--  (6, 10, 1); -- Микрофон, заказ 10, 1 шт
+
+
+

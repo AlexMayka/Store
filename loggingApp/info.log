@@ -801,3 +801,11 @@ LINE 2:             SELECT po.product_id, po.quantity, o.id AS order...
 2024-03-22 18:59:25,648 - loggingApp.loggingApp - INFO - Luck request
 2024-03-22 18:59:25,648 - loggingApp.loggingApp - INFO - Statr output console
 2024-03-22 18:59:25,648 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 19:08:00,648 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 19:08:00,648 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 19:08:00,648 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 19:08:00,648 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 19:08:00,677 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 19:08:00,677 - loggingApp.loggingApp - INFO - Luck get data
+2024-03-22 19:08:00,677 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 19:08:00,677 - loggingApp.loggingApp - INFO - Luck output console

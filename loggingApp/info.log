@@ -24,3 +24,780 @@
 2024-03-22 01:10:20,329 - loggingApp.loggingApp - INFO - Luck request
 2024-03-22 01:10:20,329 - loggingApp.loggingApp - INFO - Statr output console
 2024-03-22 01:10:20,329 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 01:36:32,919 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 01:36:32,919 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 01:36:32,919 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 01:36:32,919 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 01:36:32,946 - loggingApp.loggingApp - INFO - Executing a request
+2024-03-22 01:36:32,947 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 01:36:32,947 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 01:36:32,950 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:00:36,542 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:00:36,542 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:00:36,542 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:00:36,542 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:01:05,090 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:01:05,090 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:01:05,090 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:01:05,090 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:04:10,349 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:04:10,349 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:04:10,350 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:04:10,350 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:04:10,378 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:04:21,799 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:04:21,799 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:04:21,799 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:04:21,799 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:04:21,833 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:04:47,867 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:04:47,867 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:04:47,868 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:04:47,868 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:04:47,895 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:05:04,374 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:05:04,374 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:05:04,374 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:05:04,374 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:05:04,402 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:05:07,994 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:05:07,994 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:05:07,994 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:05:07,994 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:05:08,022 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:05:09,276 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:05:09,276 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:05:09,276 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:05:09,276 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:05:09,305 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:07:16,020 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:07:16,020 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:07:16,020 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:07:16,020 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:07:16,165 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:07:45,767 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:07:45,767 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:07:45,767 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:07:45,767 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:07:45,801 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:07:57,511 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:07:57,511 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:07:57,511 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:07:57,511 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:07:57,545 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  столбец o.product_id не существует
+LINE 4:             JOIN shelves_product sp ON o.product_id = sp.pro...
+                                               ^
+HINT:  Возможно, предполагалась ссылка на столбец "sp.product_id".
+
+2024-03-22 17:08:21,279 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:08:21,279 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:08:21,279 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:08:21,279 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:08:21,307 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  таблица "sp" отсутствует в предложении FROM
+LINE 4:             JOIN shelves s ON sp.shelf_id = s.id
+                                      ^
+
+2024-03-22 17:13:11,239 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:13:11,239 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:13:11,239 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:13:11,239 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:13:11,267 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  таблица "o" отсутствует в предложении FROM
+LINE 2:             SELECT po.product_id, po.quantity, o.id AS order...
+                                                       ^
+
+2024-03-22 17:13:20,320 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:13:20,320 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:13:20,320 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:13:20,320 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:13:20,353 - loggingApp.loggingApp - ERROR - Not luck request ОШИБКА:  таблица "o" отсутствует в предложении FROM
+LINE 2:             SELECT po.product_id, po.quantity, o.id AS order...
+                                                       ^
+
+2024-03-22 17:14:57,683 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:14:57,683 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:14:57,683 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:14:57,683 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:16:11,102 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:16:11,102 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:16:11,102 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:16:11,103 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:16:26,927 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:16:26,927 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:16:26,927 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:16:26,927 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:17:20,998 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:17:20,998 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:17:20,998 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:17:20,998 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:17:53,128 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:17:53,128 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:17:53,128 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:17:53,128 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:17:53,161 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:18:09,062 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:18:09,062 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:18:09,062 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:18:09,062 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:18:09,090 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:18:29,881 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:18:29,881 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:18:29,881 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:18:29,881 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:18:29,910 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:18:51,206 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:18:51,206 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:18:51,206 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:18:51,206 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:18:51,236 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:19:10,065 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:19:10,065 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:19:10,065 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:19:10,065 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:19:10,092 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:19:22,933 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:19:22,933 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:19:22,933 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:19:22,933 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:19:22,960 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:19:34,986 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:19:34,986 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:19:34,986 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:19:34,986 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:19:35,014 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:19:52,129 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:19:52,130 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:19:52,130 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:19:52,130 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:19:52,158 - loggingApp.loggingApp - ERROR - Not luck request can only concatenate str (not "dict") to str
+2024-03-22 17:20:03,283 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:20:03,283 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:20:03,283 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:20:03,283 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:20:03,318 - loggingApp.loggingApp - ERROR - Not luck request can only concatenate str (not "dict") to str
+2024-03-22 17:20:17,007 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:20:17,007 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:20:17,008 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:20:17,008 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:20:17,036 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:20:30,155 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:20:30,155 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:20:30,156 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:20:30,156 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:20:30,183 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:20:43,944 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:20:43,944 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:20:43,944 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:20:43,944 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:20:43,973 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:21:04,135 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:21:04,135 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:21:04,135 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:21:04,136 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:21:04,164 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:21:13,859 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:21:13,859 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:21:13,859 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:21:13,859 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:21:13,888 - loggingApp.loggingApp - ERROR - Not luck request 'dict_values' object is not subscriptable
+2024-03-22 17:21:17,649 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:21:17,649 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:21:17,649 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:21:17,649 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:21:17,676 - loggingApp.loggingApp - ERROR - Not luck request can't adapt type 'dict'
+2024-03-22 17:21:38,627 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:21:38,627 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:21:38,627 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:21:38,627 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:22:12,046 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:22:12,046 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:22:12,046 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:22:12,046 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:22:25,926 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:22:25,926 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:22:25,926 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:22:25,926 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:22:32,345 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:22:32,345 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:22:32,345 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:22:32,345 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:24:24,884 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:24:24,884 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:24:24,884 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:24:24,884 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:24:30,794 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:24:30,794 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:24:30,794 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:24:30,794 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:24:51,632 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:24:51,633 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:24:51,633 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:24:51,633 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:24:51,667 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:25:13,703 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:25:13,703 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:25:13,703 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:25:13,703 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:25:13,732 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:25:20,975 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:25:20,975 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:25:20,975 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:25:20,975 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:25:21,003 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:25:45,325 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:25:45,325 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:25:45,325 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:25:45,325 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:25:45,354 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:26:15,969 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:26:15,969 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:26:15,969 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:26:15,969 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:26:15,997 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:26:45,741 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:26:45,741 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:26:45,741 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:26:45,741 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:26:45,770 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:27:48,200 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:27:48,200 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:27:48,200 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:27:48,200 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:27:48,234 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:27:48,234 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:27:48,234 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:29:49,856 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:29:49,856 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:29:49,856 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:29:49,856 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:30:43,184 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:30:43,184 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:30:43,185 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:30:43,185 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:31:18,450 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:31:18,450 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:31:18,450 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:31:18,450 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:31:35,912 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:31:35,912 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:31:35,913 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:31:35,913 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:32:10,979 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:32:10,979 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:32:10,979 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:32:10,979 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:32:11,007 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:32:11,007 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:32:11,007 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:32:22,674 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:32:22,674 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:32:22,674 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:32:22,674 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:33:12,704 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:33:12,704 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:33:12,705 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:33:18,689 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:33:18,689 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:33:18,691 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:33:18,691 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:33:51,149 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:33:51,149 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:33:51,150 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:33:51,150 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:34:00,857 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:34:00,857 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:34:00,857 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:34:00,857 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:34:50,886 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:34:50,886 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:34:50,886 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:34:52,701 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:34:52,701 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:34:52,701 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:34:52,701 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:35:21,815 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:35:21,815 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:35:21,815 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:35:21,815 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:35:37,246 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:35:37,246 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:35:37,246 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:35:37,246 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:36:27,275 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:36:27,275 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:36:27,275 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:39:08,269 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:39:08,269 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:39:08,270 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:39:08,270 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:39:36,239 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:39:36,239 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:39:36,239 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:39:36,239 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:40:07,454 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:40:07,455 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:40:07,455 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:40:07,455 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:40:36,279 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:40:36,280 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:40:36,280 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:40:36,280 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:40:50,329 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:40:50,329 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:40:50,329 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:40:50,329 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:41:11,787 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:41:11,788 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:41:11,788 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:41:11,788 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:41:43,433 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:41:43,434 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:41:43,434 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:41:43,434 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:42:14,229 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:42:14,229 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:42:14,229 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:42:14,229 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:43:52,342 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:43:52,343 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:43:52,343 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:43:52,343 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:44:04,321 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:44:04,321 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:44:04,321 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:44:04,322 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:45:37,811 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:45:37,811 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:45:37,811 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:45:37,812 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:46:37,083 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:46:37,083 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:46:37,083 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:46:37,083 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:46:43,646 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:46:43,646 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:46:43,647 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:46:43,647 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:48:31,139 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:48:31,139 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:48:31,139 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:48:31,139 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:49:25,012 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:49:25,012 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:49:25,012 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:49:25,012 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:49:58,051 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:49:58,051 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:49:58,052 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:49:58,052 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:50:33,215 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:50:33,216 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:50:33,216 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:50:33,216 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:50:38,280 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:50:38,280 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:50:38,280 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:50:38,280 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:50:38,308 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:50:38,308 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:50:38,308 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:52:19,603 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:52:19,603 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:52:19,604 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:52:19,604 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:52:19,631 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:52:19,631 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:52:19,631 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:53:19,560 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:53:19,560 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:53:19,560 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:53:19,560 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:53:19,588 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:53:19,588 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:53:19,588 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:54:06,143 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:54:06,143 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:54:06,143 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:54:06,143 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:54:06,172 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:54:43,187 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:54:43,187 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:54:43,188 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:54:43,188 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:54:43,215 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:55:10,951 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:55:10,951 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:55:10,951 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:55:10,951 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:55:10,981 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:55:10,981 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 17:55:10,981 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 17:56:06,506 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:56:06,506 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:56:06,506 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:56:06,506 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:56:06,534 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 17:57:03,063 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:57:03,063 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:57:03,063 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:57:03,063 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 17:57:06,896 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 17:57:06,896 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 17:57:06,896 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 17:57:06,896 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:00:06,689 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:00:06,689 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:00:06,690 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:00:06,690 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:00:06,716 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:00:06,716 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:00:06,716 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:00:34,051 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:00:34,051 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:00:34,052 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:00:34,052 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:00:34,079 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:00:34,079 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:00:34,079 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:00:51,380 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:00:51,380 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:00:51,380 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:00:51,380 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:00:51,408 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:00:51,408 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:00:51,408 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:01:18,279 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:01:18,279 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:01:18,280 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:01:18,280 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:01:18,313 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:01:18,313 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:01:18,313 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:01:51,338 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:01:51,338 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:01:51,338 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:01:51,338 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:01:51,367 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:01:51,367 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:01:51,367 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:02:07,260 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:02:07,260 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:02:07,260 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:02:07,260 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:02:07,288 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:02:07,288 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:02:07,288 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:02:39,887 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:02:39,887 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:02:39,887 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:02:39,887 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:02:39,915 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:02:39,915 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:02:39,915 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:04:42,674 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:04:42,674 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:04:42,674 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:04:42,674 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:04:42,703 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:04:42,703 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:04:42,703 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:05:51,866 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:05:51,866 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:05:51,866 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:05:51,866 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:05:51,894 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:06:13,533 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:06:13,533 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:06:13,534 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:06:13,534 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:06:13,568 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:06:26,127 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:06:26,127 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:06:26,128 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:06:26,128 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:06:26,156 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:07:16,156 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:07:16,157 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:07:45,240 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:07:45,240 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:07:45,241 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:07:45,241 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:07:45,269 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:07:57,706 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:07:57,706 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:07:57,706 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:07:57,706 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:07:57,733 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:09:08,301 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:09:08,301 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:09:08,301 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:09:08,302 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:09:08,331 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:10:32,557 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:10:32,557 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:10:32,558 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:10:32,558 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:10:32,585 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:10:53,535 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:10:53,535 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:10:53,535 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:10:53,535 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:10:53,564 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:11:38,184 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:11:38,184 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:11:38,184 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:11:38,185 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:11:38,212 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:12:20,142 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:12:20,142 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:12:20,143 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:12:20,143 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:12:20,170 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:13:17,427 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:13:17,427 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:13:17,427 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:13:17,427 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:13:47,319 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:13:47,319 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:13:47,319 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:13:47,319 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:13:47,347 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:14:25,741 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:14:25,741 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:14:25,741 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:14:25,741 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:14:25,768 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:14:31,646 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:14:31,646 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:14:31,646 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:14:31,646 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:14:31,675 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:19:30,658 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:19:30,658 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:19:30,658 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:19:30,658 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:19:30,689 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:19:52,305 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:19:52,305 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:19:52,306 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:19:52,306 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:19:52,334 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:19:52,334 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:19:52,334 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:20:19,209 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:20:19,209 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:20:19,210 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:20:19,210 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:20:19,237 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:20:19,237 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:20:19,237 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:22:33,197 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:22:33,197 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:22:33,197 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:22:33,197 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:22:33,227 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:22:33,227 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:22:33,227 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:22:45,423 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:22:45,423 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:22:45,423 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:22:45,423 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:22:45,451 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:24:00,202 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:24:00,202 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:24:00,202 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:24:00,202 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:24:00,229 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:24:08,759 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:24:08,759 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:24:08,759 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:24:08,759 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:24:37,630 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:24:37,630 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:24:37,630 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:24:37,630 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:25:11,357 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:25:11,357 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:25:11,357 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:25:11,357 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:25:21,504 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:25:21,504 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:25:21,504 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:25:21,504 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:25:57,278 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:25:57,278 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:25:57,278 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:25:57,278 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:27:38,734 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:27:38,734 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:27:38,734 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:27:38,734 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:27:55,042 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:27:55,042 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:27:55,042 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:27:55,042 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:28:17,981 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:28:17,981 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:28:17,981 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:28:17,981 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:28:22,070 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:28:22,070 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:28:22,070 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:28:22,070 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:28:38,151 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:28:38,151 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:28:38,151 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:28:38,151 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:28:48,123 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:28:48,123 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:28:48,123 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:28:48,123 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:28:58,320 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:28:58,320 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:28:58,321 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:28:58,321 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:29:20,676 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:29:20,676 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:29:20,676 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:29:20,677 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:29:54,599 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:29:54,599 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:29:54,599 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:29:54,599 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:30:24,252 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:30:24,252 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:30:24,252 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:30:24,252 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:30:37,427 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:30:37,427 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:30:37,427 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:30:37,428 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:31:17,749 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:31:17,749 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:31:17,750 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:31:17,750 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:31:51,374 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:31:51,374 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:31:51,374 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:31:51,374 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:32:02,232 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:32:02,232 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:32:02,232 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:32:02,232 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:33:04,049 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:33:04,049 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:33:04,049 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:33:04,050 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:35:08,846 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:35:08,846 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:35:08,847 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:35:08,847 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:35:30,139 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:35:30,139 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:35:30,139 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:35:30,139 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:35:49,192 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:35:49,192 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:35:49,192 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:35:49,192 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:36:08,476 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:36:08,476 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:36:08,476 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:36:08,476 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:36:27,002 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:36:27,002 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:36:27,002 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:36:27,002 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:39:54,896 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:39:54,896 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:39:54,896 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:39:54,896 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:42:13,395 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:42:13,395 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:42:13,395 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:42:13,395 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:45:43,199 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:45:43,200 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:45:43,200 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:45:43,200 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:46:35,562 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:46:35,562 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:46:35,562 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:46:35,562 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:47:16,517 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:47:16,517 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:47:16,517 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:47:16,517 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:50:43,267 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:50:43,267 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:50:43,268 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:50:43,268 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:51:11,261 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:51:11,261 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:51:11,261 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:51:11,261 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:52:08,997 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:52:08,998 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:52:08,998 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:52:08,998 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:52:28,338 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:52:28,338 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:52:28,339 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:52:28,339 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:54:43,169 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:54:43,169 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:54:43,169 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:54:43,169 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:57:22,279 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:57:22,279 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:57:22,280 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:57:22,280 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:57:26,787 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:57:26,787 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:57:26,787 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:57:26,787 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:58:41,781 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:58:41,781 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:58:41,782 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:58:41,782 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:58:41,810 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:58:41,810 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:58:41,810 - loggingApp.loggingApp - INFO - Luck output console
+2024-03-22 18:59:25,616 - loggingApp.loggingApp - INFO - Start work
+2024-03-22 18:59:25,616 - loggingApp.loggingApp - INFO - Start read config
+2024-03-22 18:59:25,616 - loggingApp.loggingApp - INFO - Luck read config
+2024-03-22 18:59:25,616 - loggingApp.loggingApp - INFO - Connect db
+2024-03-22 18:59:25,648 - loggingApp.loggingApp - INFO - Luck request
+2024-03-22 18:59:25,648 - loggingApp.loggingApp - INFO - Statr output console
+2024-03-22 18:59:25,648 - loggingApp.loggingApp - INFO - Luck output console

@@ -47,7 +47,6 @@ def getProductByOrders(orders: list, config: Config) -> list[tuple]:
         """
         cur.execute(query, (tuple(orders),))
         order_products = cur.fetchall()
-        # print(order_products)
 
         # Получаем информацию о товарах
         query = """
@@ -57,7 +56,6 @@ def getProductByOrders(orders: list, config: Config) -> list[tuple]:
         """
         cur.execute(query, (tuple([order[0] for order in order_products]),))
         products = cur.fetchall()
-        # print(products)
 
         # Получаем информацию о полках и главном флаге для каждого товара
         query = """
@@ -78,7 +76,9 @@ def getProductByOrders(orders: list, config: Config) -> list[tuple]:
         cur.execute(query, (tuple([shelves_product[1] for shelves_product in shelves_products]), ))
         shelves = cur.fetchall()
 
-        result = []
+        cur.close()
+        conn.close()
+        logger.info("Luck request")
 
         order_products_dict = dict()
         for order in order_products:
@@ -109,11 +109,7 @@ def getProductByOrders(orders: list, config: Config) -> list[tuple]:
                     shelf_name = shelves_dict.get(shelf_data['idShelves'], None)
                     result.append((product_id, product_name, quantity, order_id, shelf_name, is_main))
 
-
-        cur.close()
-        conn.close()
-        logger.info("Luck request")
-
+        logger.info("Luck get data")
         return result
 
     except Exception as Ex:

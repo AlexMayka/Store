@@ -5,28 +5,5 @@
     "password": "qwe",
     "host": "localhost",
     "port": "5432"
-  },
-  "Logging": {
-    "version": 1,
-    "disable_existing_loggers": false,
-    "formatters": {
-      "simple": {
-        "format": "%(asctime)s [%(levelname)s] %(message)s"
-      }
-    },
-    "handlers": {
-      "info_file": {
-        "class": "logging.FileHandler",
-        "filename": "loggingApp/app.log",
-        "formatter": "simple",
-        "level": "INFO"
-      },
-      "error_file": {
-        "class": "logging.FileHandler",
-        "filename": "loggingApp/errors.log",
-        "formatter": "simple",
-        "level": "ERROR"
-      }
-    }
   }
 }

@@ -1,13 +1,17 @@
 # Модуль для работы с базой данных
 # Содержит функцию для подключения к базе данных и функции для получения товаров по заказам
+# Способ 1 (более читабельным и удобным для работы, также при смене СУБД не требует переработок SQL-запросов)
 
-import sqlalchemy
-import pandas as pd
+from pandas import DataFrame
+from sqlalchemy.orm import Session
+
 from config.config import Config
 from loggingApp.loggingApp import logger
+from db.models import Product, ProductOrder, ShelfProduct, Shelf
+from sqlalchemy import create_engine, Engine
 
 
-def connect_db(config: Config) -> sqlalchemy.Engine:
+def connect_db(config: Config) -> Engine:
     """
     Функция для подключения к базе данных
     :param config: Объект конфигурации
@@ -16,7 +20,7 @@ def connect_db(config: Config) -> sqlalchemy.Engine:
     """
     try:
         logger.info("Попытка подключения к базе данных")
-        engine = sqlalchemy.create_engine(
+        engine = create_engine(
             f'postgresql://{config.db.name}:'
             f'{config.db.password}@'
             f'{config.db.host}:'
@@ -30,67 +34,49 @@ def connect_db(config: Config) -> sqlalchemy.Engine:
         raise ValueError("Ошибка подключения к базе данных")
 
 
-def get_product_order_by_id(connection: sqlalchemy.Connection, id_orders: tuple) -> list:
+def get_product_order_by_id(session: Session, id_orders: list) -> list:
     """
     Функция для получения товаров в заказах по ID заказов
-    :param connection: Объект соединения с базой данных
+    :param session: Объект сессии SQLAlchemy
     :param id_orders: Кортеж ID заказов
     :return: Список кортежей, содержащих product_id, quantity и order_id
     """
-    query = sqlalchemy.text("""
-                SELECT po.product_id, po.quantity, po.order_id
-                FROM product_orders po
-                WHERE po.order_id IN :id_orders
-                """)
-    result = connection.execute(query, {"id_orders": id_orders}).fetchall()
+    result = session.query(ProductOrder.product_id, ProductOrder.quantity, ProductOrder.order_id) \
+        .filter(ProductOrder.order_id.in_(id_orders)).all()
     return result
 
 
-def get_products_by_id(connection: sqlalchemy.Connection, id_products: tuple) -> list:
+def get_products_by_id(session: Session, id_products: list) -> list:
     """
     Функция для получения товаров по ID товаров
-    :param connection: Объект соединения с базой данных
+    :param session: Объект сессии SQLAlchemy
     :param id_products: Кортеж ID товаров
     :return: Список кортежей, содержащих id и name товаров
     """
-    query = sqlalchemy.text("""
-                SELECT id, name
-                FROM products
-                WHERE id IN :id_products
-            """)
-    result = connection.execute(query, {"id_products": id_products}).fetchall()
+    result = session.query(Product.id, Product.name).filter(Product.id.in_(id_products)).all()
     return result
 
 
-def get_shelves_product_by_id(connection: sqlalchemy.Connection, id_products: tuple) -> list:
+def get_shelves_product_by_id(session: Session, id_products: list) -> list:
     """
     Функция для получения полок для товаров по ID товаров
-    :param connection: Объект соединения с базой данных
+    :param session: Объект сессии SQLAlchemy
     :param id_products: Кортеж ID товаров
     :return: Список кортежей, содержащих product_id, shelf_id и is_main
     """
-    query = sqlalchemy.text("""
-            SELECT product_id, shelf_id, is_main
-            FROM shelves_product
-            WHERE product_id IN :id_products
-            """)
-    result = connection.execute(query, {"id_products": id_products}).fetchall()
+    result = session.query(ShelfProduct.product_id, ShelfProduct.shelf_id, ShelfProduct.is_main) \
+        .filter(ShelfProduct.product_id.in_(id_products)).all()
     return result
 
 
-def get_shelves_by_id(connection: sqlalchemy.Connection, id_shelf: tuple) -> list:
+def get_shelves_by_id(session: Session, id_shelf: list) -> list:
     """
     Функция для получения полок по ID полок
-    :param connection: Объект соединения с базой данных
+    :param session: Объект сессии SQLAlchemy
     :param id_shelf: Кортеж ID полок
     :return: Список кортежей, содержащих id и name полок
     """
-    query = sqlalchemy.text("""
-            SELECT id, name
-            FROM shelves
-            WHERE id IN :id_shelf
-            """)
-    result = connection.execute(query, {"id_shelf": id_shelf}).fetchall()
+    result = session.query(Shelf.id, Shelf.name).filter(Shelf.id.in_(id_shelf)).all()
     return result
 
 
@@ -101,35 +87,27 @@ def get_product_by_orders(orders: list, config: Config) -> list:
     :param config: Объект конфигурации
     :return: Список кортежей, содержащих информацию о товарах
     """
+
     engine = connect_db(config)
-    with engine.connect() as connection:
-        df_product_orders = pd.DataFrame(
-            data=get_product_order_by_id(connection, tuple(orders)),
-            columns=["product_id", "quantity", "order_id"]
-        )
+    with Session(engine) as session:
+        product_orders = get_product_order_by_id(session, orders)
+        products = get_products_by_id(session, [order[0] for order in product_orders])
+        product_shelves = get_shelves_product_by_id(session, [order[0] for order in product_orders])
+        shelves = get_shelves_by_id(session, [shelf[1] for shelf in product_shelves])
 
-        df_products = pd.DataFrame(
-            data=get_products_by_id(connection, tuple(df_product_orders["product_id"])),
-            columns=["product_id", "product_name"]
-        )
+    df_product_orders = DataFrame(data=product_orders, columns=["product_id", "quantity", "order_id"])
+    df_products = DataFrame(data=products, columns=["product_id", "product_name"])
+    df_product_shelves = DataFrame(data=product_shelves, columns=["product_id", "shelf_id", "os_main"])
+    df_shelves = DataFrame(data=shelves, columns=["shelf_id", "shelf_name"])
+    del product_orders, products, product_shelves, shelves
 
-        df_product_shelves = pd.DataFrame(
-            data=get_shelves_product_by_id(connection, tuple(df_product_orders["product_id"])),
-            columns=["product_id", "shelf_id", "os_main"]
-        )
+    logger.info("Успешное выполнение запросов к базе данных")
 
-        df_shelves = pd.DataFrame(
-            data=get_shelves_by_id(connection, tuple(df_product_shelves["shelf_id"])),
-            columns=["shelf_id", "shelf_name"]
-        )
-
-        logger.info("Успешное выполнение запросов к базе данных")
-
-    df_product_by_orders = df_product_orders
-    df_product_by_orders = df_product_by_orders.merge(df_products, left_on='product_id', right_on='product_id',how='inner')
-    df_product_by_orders = df_product_by_orders.merge(df_product_shelves, left_on='product_id', right_on='product_id',how='inner')
+    df_product_by_orders = df_product_orders.merge(df_products, left_on='product_id', right_on='product_id', how='inner')
+    df_product_by_orders = df_product_by_orders.merge(df_product_shelves, left_on='product_id', right_on='product_id', how='inner')
     df_product_by_orders = df_product_by_orders.merge(df_shelves, left_on='shelf_id', right_on='shelf_id', how='inner')
     df_product_by_orders = df_product_by_orders.drop('shelf_id', axis=1)
+    del df_product_orders, df_products, df_product_shelves, df_shelves
 
     result = df_product_by_orders.values.tolist()
 

@@ -56,13 +56,14 @@ def read_config(path_config_json: str) -> Config:
     :return: Экземпляр класса Config
     """
     try:
-        logger.info("Начало чтения конфигурации")
-        config = Config(path_config_json)
+        config_def = Config(path_config_json)
         logger.info("Успешное чтение конфигурации")
-        return config
+        return config_def
     except Exception as ex:
         logger.error(f"Ошибка при чтении конфигурации: {ex}")
 
+
+config = read_config(r"config/config.json")
 
 if __name__ == "__main__":
     config_test = Config("config.json")

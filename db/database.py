@@ -5,13 +5,13 @@
 from pandas import DataFrame
 from sqlalchemy.orm import Session
 
-from config.config import Config
+from config.config import config
 from loggingApp.loggingApp import logger
 from db.models import Product, ProductOrder, ShelfProduct, Shelf
 from sqlalchemy import create_engine, Engine
 
 
-def connect_db(config: Config) -> Engine:
+def connect_db() -> Engine:
     """
     Функция для подключения к базе данных
     :param config: Объект конфигурации
@@ -80,15 +80,14 @@ def get_shelves_by_id(session: Session, id_shelf: list) -> list:
     return result
 
 
-def get_product_by_orders(orders: list, config: Config) -> list:
+def get_product_by_orders(orders: list) -> list:
     """
     Функция для получения товаров по списку заказов
     :param orders: Список заказов
     :param config: Объект конфигурации
     :return: Список кортежей, содержащих информацию о товарах
     """
-
-    engine = connect_db(config)
+    engine = connect_db()
     with Session(engine) as session:
         product_orders = get_product_order_by_id(session, orders)
         products = get_products_by_id(session, [order[0] for order in product_orders])

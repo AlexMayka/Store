@@ -1,0 +1,70 @@
+2024-03-25 00:07:43,510 - loggingApp.loggingApp - ERROR - Not luck request Execution failed on sql '
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ': ОШИБКА:  ошибка синтаксиса (примерное положение: "%")
+LINE 4:                 WHERE order_id in %s
+                                          ^
+
+2024-03-25 00:14:13,992 - loggingApp.loggingApp - ERROR - Not luck request Execution failed on sql '
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ': ОШИБКА:  ошибка синтаксиса (примерное положение: "%")
+LINE 4:                 WHERE order_id in %s
+                                          ^
+
+2024-03-25 00:14:46,145 - loggingApp.loggingApp - ERROR - Not luck request Execution failed on sql '
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ': ОШИБКА:  ошибка синтаксиса (примерное положение: "%")
+LINE 4:                 WHERE order_id in %s
+                                          ^
+
+2024-03-25 00:17:16,433 - loggingApp.loggingApp - ERROR - Not luck request Execution failed on sql '
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ': ОШИБКА:  ошибка синтаксиса (примерное положение: "ARRAY")
+LINE 4:                 WHERE order_id in ARRAY['10','11','14','15']
+                                          ^
+
+2024-03-25 00:17:25,892 - loggingApp.loggingApp - ERROR - Not luck request Execution failed on sql '
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ': ОШИБКА:  ошибка синтаксиса (примерное положение: "ARRAY")
+LINE 4:                 WHERE order_id in ARRAY['10','11','14','15']
+                                          ^
+
+2024-03-25 00:19:17,588 - loggingApp.loggingApp - ERROR - Not luck request (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "ARRAY")
+LINE 4:                 WHERE order_id in ARRAY['10','11','14','15']
+                                          ^
+
+[SQL: 
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ]
+[parameters: (['10', '11', '14', '15'],)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-03-25 00:19:29,477 - loggingApp.loggingApp - ERROR - Not luck request (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "ARRAY")
+LINE 4:                 WHERE order_id in ARRAY['10','11','14','15']
+                                          ^
+
+[SQL: 
+                SELECT po.product_id, po.quantity, po.order_id
+                FROM product_orders po
+                WHERE order_id in %s
+            ]
+[parameters: (['10', '11', '14', '15'],)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-03-25 00:20:38,579 - loggingApp.loggingApp - ERROR - Not luck request List argument must consist only of tuples or dictionaries
+2024-03-25 00:22:04,973 - loggingApp.loggingApp - ERROR - Not luck request 'OptionEngine' object has no attribute 'execute'
+2024-03-25 00:22:10,963 - loggingApp.loggingApp - ERROR - Not luck request 'OptionEngine' object has no attribute 'execute'
+2024-03-25 00:22:49,854 - loggingApp.loggingApp - ERROR - Not luck request 'OptionEngine' object has no attribute 'execute'
+2024-03-25 00:22:54,838 - loggingApp.loggingApp - ERROR - Not luck request 'OptionEngine' object has no attribute 'execute'
+2024-03-25 00:23:12,023 - loggingApp.loggingApp - ERROR - Not luck request List argument must consist only of tuples or dictionaries
+2024-03-25 00:23:17,108 - loggingApp.loggingApp - ERROR - Not luck request List argument must consist only of tuples or dictionaries
+2024-03-25 00:23:36,629 - loggingApp.loggingApp - ERROR - Not luck request List argument must consist only of tuples or dictionaries

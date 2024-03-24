@@ -3,7 +3,6 @@
 
 # Можно дописывать классы с дополнительными настройками проекта, к примеру сторонние API, настройка хоста и тп
 
-
 import json
 from dataclasses import dataclass
 from loggingApp.loggingApp import logger
@@ -12,7 +11,7 @@ from loggingApp.loggingApp import logger
 @dataclass
 class DB:
     """
-     Класс для управления настройками подключения к базе данных.
+    Класс для управления настройками подключения к базе данных.
     """
     host: str  # Хост базы данных.
     name: str  # Имя пользователя базы данных
@@ -50,19 +49,19 @@ class Config:
         self.db = DB(self.config["DB"])
 
 
-def readConfig(pathConfigJson: str) -> Config:
+def read_config(path_config_json: str) -> Config:
     """
     Функция для чтения конфигурации из файла JSON
-    :param pathConfigJson: Путь к файлу конфигурации
+    :param path_config_json: Путь к файлу конфигурации
     :return: Экземпляр класса Config
     """
     try:
-        logger.info("Start read config")
-        config = Config(pathConfigJson)
-        logger.info("Luck read config")
+        logger.info("Начало чтения конфигурации")
+        config = Config(path_config_json)
+        logger.info("Успешное чтение конфигурации")
         return config
-    except Exception as Ex:
-        logger.error(f"Error read config {Ex}")
+    except Exception as ex:
+        logger.error(f"Ошибка при чтении конфигурации: {ex}")
 
 
 if __name__ == "__main__":

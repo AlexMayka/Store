@@ -4,11 +4,11 @@
 
 import sqlalchemy
 import pandas as pd
-from config.config import Config
+from config.config import config
 from loggingApp.loggingApp import logger
 
 
-def connect_db(config: Config) -> sqlalchemy.Engine:
+def connect_db() -> sqlalchemy.Engine:
     """
     Функция для подключения к базе данных
     :param config: Объект конфигурации
@@ -95,14 +95,14 @@ def get_shelves_by_id(connection: sqlalchemy.Connection, id_shelf: tuple) -> lis
     return result
 
 
-def get_product_by_orders(orders: list, config: Config) -> list:
+def get_product_by_orders(orders: list) -> list:
     """
     Функция для получения товаров по списку заказов
     :param orders: Список заказов
     :param config: Объект конфигурации
     :return: Список кортежей, содержащих информацию о товарах
     """
-    engine = connect_db(config)
+    engine = connect_db()
     with engine.connect() as connection:
         df_product_orders = pd.DataFrame(
             data=get_product_order_by_id(connection, tuple(orders)),
